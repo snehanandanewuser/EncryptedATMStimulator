@@ -1,7 +1,7 @@
 # 🔐 Encrypted ATM Simulator
 
 > 🎓 **Capstone Project – 2nd Year B.Tech (CSE)**  
-> 🗓️ Developed in June–July 2025
+> 🗓️ Developed in April-May 2025
 
 This project is a secure desktop-based **ATM simulation system** built using **Java** and **Swing GUI**.
 
