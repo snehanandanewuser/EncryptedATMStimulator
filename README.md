@@ -12,7 +12,9 @@ It simulates real-world ATM features such as:
 - 💸 Deposit & withdrawal operations
 - 🧾 Mini statement (transaction history)
 - 🔁 Change PIN securely
+- 🚫 Brute-force prevention: blocks access after 5 failed login attempts
 
-The application stores the encrypted PIN and account balance locally using **Java File I/O**, and it limits login attempts to 5 for added security.
+The application stores the encrypted PIN and account balance locally using **Java File I/O**, and deploys brute-force attack protection by locking the user after multiple incorrect attempts.
 
 The GUI is designed with **Java Swing**, making it simple and user-friendly.
+
