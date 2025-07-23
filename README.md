@@ -21,16 +21,16 @@ This is a secure **Java-based desktop ATM simulator** built using Java Swing GUI
 
 ## 🛡️ Security Focus
 
-- PINs are stored using **AES encryption**  
-- Brute-force attacks are mitigated by locking the account temporarily after repeated failed login attempts
+- PINs are stored using **AES encryption**.
+- Brute-force attacks are mitigated by locking the account temporarily after repeated failed login attempts.
 
 ---
 
 ## 💻 Tech Stack
 
-- Java (JDK 17+)  
-- Java Swing for GUI  
-- Java File I/O for local data handling  
+- Java (JDK 17+)
+- Java Swing for GUI
+- Java File I/O for local data handling
 - AES Encryption using `javax.crypto`
 
 ---
@@ -39,9 +39,23 @@ This is a secure **Java-based desktop ATM simulator** built using Java Swing GUI
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sneha1807-web/EncryptedATMSimulator.git
+   git clone https://github.com/snehanandanewuser/EncryptedATMSimulator.git
    ```
+2. Open the project in any Java IDE (e.g., IntelliJ IDEA or Eclipse).
+3. Compile and run the main class (`ATM.java` or equivalent).
 
-2. Open the project in your Java IDE (e.g., IntelliJ IDEA, Eclipse)
+---
 
-3. Run the `Main.java` file to launch the application
+## 📚 Learnings
+
+Throughout the development of this project, I gained hands-on experience in:
+
+- 🔐 Implementing AES encryption for secure PIN storage and verification  
+- 🧠 Preventing brute-force attacks with login attempt limits  
+- 💾 Using Java File I/O for persistent data handling  
+- 🖥️ Designing desktop GUIs with Java Swing  
+- 🧪 Testing features like deposit, withdrawal, and mini statement  
+- 🛠️ Writing clean, modular code using object-oriented principles  
+- 🧩 Simulating real-world ATM logic securely and effectively  
+
+This project deepened my understanding of **Java programming** and strengthened my knowledge of **secure software design**.
